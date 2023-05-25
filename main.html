@@ -24,7 +24,7 @@
     </fieldset>
     <label  for="cars">Choose your car</label>
     <select id="cars" >
-		<option value="" disabled selected>--Please choose an option--</option>
+		<option value=""  disabled selected>--Please choose an option--</option>
         <option value="BMW">BMW</option>
         <option value="Audi">Audi</option>
         <option value="Mercedez">Mercedez</option>
@@ -46,10 +46,10 @@
         <input type="password" placeholder="Password"name="password" required id="password">
     </div>
 	<label for="tos-checkbox">
-    <input type="checkbox" id="tos-checkbox">
+    <input type="checkbox" required id="tos-checkbox">
     I agree to the Terms of Service (TOS)
 </label>
-    <button type="submit">submit</button>
+    <button id="tos" type="submit">submit</button>
 </form>
     <script type="text/javascript" src="./script.js">
 </script>
